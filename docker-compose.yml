@@ -7,7 +7,7 @@ services:
   
 
   typebot-viewer:
-    image: baptistearno/typebot-viewer:latest
+    image: baptistearno/typebot-viewer:2.22
     ports:
       - '8081:3000'
     environment:
